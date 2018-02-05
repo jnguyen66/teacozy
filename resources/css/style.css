@@ -1,0 +1,135 @@
+
+body{
+  margin: 0;
+  background-color: black;
+  font-family: "Helvetica", serif;
+  font-size: 22px;
+  color: seashell;
+  text-align: center;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  flex-grow:1;
+}
+
+a{
+  text-decoration: underline;
+  color: seashell;
+}
+.logo img{
+  height:50px;
+  margin-left: 10px;
+}
+nav span{
+  display:inline-block;
+  padding: 20px 10px;
+}
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  font-family: "Helvetica";
+}
+header nav{
+  padding-left: 40px;
+}
+
+.mission{
+  border: red;
+  margin: 0 auto;
+  padding-top: 69px;
+  background-position: center 69px;
+  background-repeat: no-repeat;
+  display:flex;
+  align-items: center;
+  height: 700px;
+  width: 1200px;
+  background-image: url('../images/mission-background.jpg');
+}
+
+
+.missionHeader{
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  height:100px;
+  width: 1200px;
+  background-color: black;
+}
+.missionHeader h2{
+  margin: 10px auto 5px auto;
+}
+.missionHeader h4{
+  margin: 10px auto 0 auto;
+}
+
+.teaOfMonth{
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.teaContainer{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.teaItems img{
+  height: 200px;
+  margin: 10px;
+  width: 300px;
+  display: block;
+}
+.teaItems span{
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.locations{
+  margin: 10px auto;
+  display:flex;
+  background-size: cover;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 1200px;
+  padding:70px;
+  background-repeat: no-repeat;
+  background-image: url('../images/locations-background.jpg');
+}
+.locationsContainer{
+  background-color: transparent;
+  display:flex;
+  justify-content: space-between;
+}
+.locationItems{
+  opacity: 1;
+  background-color:black;
+  margin: 10px 20px;
+  padding-right: 10px;
+  width: 300px;
+}
+.locationItems span{
+  display:block;
+  margin-bottom: 45px;
+}
+footer{
+  height:200px;
+}
+.copyright{
+  margin-left: 20px;
+  text-align: left;
+  font-size: 22px;
+}
