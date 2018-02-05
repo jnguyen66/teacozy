@@ -42,9 +42,9 @@ header nav{
 }
 
 .mission{
-  border: red;
   margin: 0 auto;
   padding-top: 69px;
+  background-size: cover;
   background-position: center 69px;
   background-repeat: no-repeat;
   display:flex;
@@ -74,7 +74,7 @@ header nav{
   height: 700px;
   width: 1000px;
   margin: auto;
-  padding-top: 70px;
+  padding-top: 50px;
 }
 
 .teaContainer{
@@ -101,11 +101,11 @@ header nav{
   display:flex;
   background-size: cover;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  background-position:center bottom 100%;
   height: 500px;
   width: 1200px;
-  padding:70px;
+  padding: 25px 0px;
   background-repeat: no-repeat;
   background-image: url('../images/locations-background.jpg');
 }
@@ -131,5 +131,5 @@ footer{
 .copyright{
   margin-left: 20px;
   text-align: left;
-  font-size: 22px;
+  font-size: 18px;
 }
